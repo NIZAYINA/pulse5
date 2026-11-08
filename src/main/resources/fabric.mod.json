@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsefx",
+  "version": "1.0.0",
+  "name": "PulseFX",
+  "description": "Client visual effects with a toggle menu (P): stars, trail, 7 skies, jump rings, hit sparks, falling petals.",
+  "environment": "client",
+  "entrypoints": { "client": ["pulsefx.PulseFxClient"] },
+  "mixins": ["pulsefx.mixins.json"],
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "~1.21.11", "fabric-api": "*" }
+}
